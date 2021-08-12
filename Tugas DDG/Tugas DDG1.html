@@ -8,15 +8,24 @@
     <style>
         *{
             margin: 0;
-            padding: 0'
-            
-
+            padding: 0;
+            box-sizing: 0;
         }
+        body{
+            font-family:'Noto Sans', sans-serif;
+        }
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
     </style>
     <body>
-        <header>
-            <h1>Belajar HTML & CSS</h1>
-            <h4>SMK Kristen Immanuel Pontianak</h4>
+        <header style= "margin : 40px 0;">
+            <h1 style= "text-align:center;color:#04AA6D;font-size:32px;">Belajar HTML & CSS</h1>
+            <h4  style="text-align:center;font-size:18px;">SMK Kristen Immanuel Pontianak</h4>
         </header>
         <section>
             <div>
