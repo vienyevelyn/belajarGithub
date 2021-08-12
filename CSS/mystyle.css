@@ -1,0 +1,17 @@
+head 
+*{
+    margin:0;
+        padding:0;
+        box-sizing:border-box;
+}
+body{
+    font-family:'Noto Sans', sans-serif;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+
+}
