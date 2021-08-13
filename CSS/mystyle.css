@@ -9,6 +9,9 @@ section::after {
     display: table;
     clear: both;
 }
+div {
+    clear: both;
+}
 body{
     font-family:'Noto Sans', sans-serif;
 }
@@ -77,6 +80,9 @@ a{
             width:200px;
             border-radius:25px;
             font-weight:700;
+}
+div {
+    clear: both;
 }
 div {
     float:left;
@@ -148,6 +154,9 @@ a{
             border-radius:25px;
             font-weight:700;
             margin-bottom: 20px;
+}
+div {
+    clear: both;
 }
 footer {
     text-align: center;
