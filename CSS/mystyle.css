@@ -4,13 +4,13 @@ head
         padding:0;
         box-sizing:border-box;
 }
-body{
-    font-family:'Noto Sans', sans-serif;
-}
 section::after {
     content: "";
     display: table;
     clear: both;
+}
+body{
+    font-family:'Noto Sans', sans-serif;
 }
 header{
 margin: 40px 0;
