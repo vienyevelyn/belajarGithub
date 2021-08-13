@@ -1,5 +1,4 @@
-head 
-*{
+head {
     margin:0;
         padding:0;
         box-sizing:border-box;
@@ -72,17 +71,14 @@ a{
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    background-color:white;
-    color:black;
+    background-color:black;
+    color:white;
     font-size:18px;
     margin:auto;
             display:block;
             width:200px;
             border-radius:25px;
             font-weight:700;
-}
-div {
-    clear: both;
 }
 div {
     float:left;
@@ -154,9 +150,6 @@ a{
             border-radius:25px;
             font-weight:700;
             margin-bottom: 20px;
-}
-div {
-    clear: both;
 }
 footer {
     text-align: center;
