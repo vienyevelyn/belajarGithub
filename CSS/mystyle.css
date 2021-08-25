@@ -3,7 +3,7 @@ head {
         padding:0;
         box-sizing:border-box;
 }
-style {section::after
+section::after {
     content: "";
     display: table;
     clear: both;
