@@ -11,6 +11,7 @@ section::after {
 }
 body{
     font-family:'Noto Sans', sans-serif;
+    clear:both;
 }
 header {
     margin: 40px 0;
