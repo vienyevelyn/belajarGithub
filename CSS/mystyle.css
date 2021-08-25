@@ -7,14 +7,10 @@ head {
 section::after {
     content: "";
     display: table;
-    clear: both;
+    clear:both
 }
 body{
     font-family:'Noto Sans', sans-serif;
-    clear: both;
-}
-div {
-    clear: both;
 }
 header {
     margin: 40px 0;
@@ -23,7 +19,6 @@ h1 {
     text-align:center;
     color:#04AA6D;
     font-size:32px;
-        clear: both;
 }
 h5 {
     text-align:center;
